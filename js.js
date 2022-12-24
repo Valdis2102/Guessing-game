@@ -15,8 +15,6 @@
     let button = document.getElementById('button_inp');
     button.onclick = function check(){
         let choice = document.getElementById('choice').value;
-        console.log(choice);
-        console.log(rand.value);
         if (choice > rand.value){
             document.getElementById('effect').innerHTML = 'Less'
         } if (choice < rand.value){
