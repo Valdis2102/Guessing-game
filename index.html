@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УГАДАЙКА</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="window">
+            <div class="title">Guessing game</div>
+            <p>Выбери диапазон чисел</p>
+            <p>От: <input type="number" name="start_num" id="start_num" value="1"></p>
+            <p>До: <input type="number" name="finish_num" id="finish_num" value="100"></p>
+            
+            <button type="submit" id="button" class="button" value="Start">Start</button>
+            <div class="result">
+                <div class="left_result">
+                    <input type="number" class="choice_inp" id="choice">
+                    <button type="submit" id="button_inp" class="button_inp" value="check">Check!</button>
+                </div>
+                <div class="right_result">
+                    <div class="effect" id="effect"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js.js"></script>
+    
+</body>
+</html>
