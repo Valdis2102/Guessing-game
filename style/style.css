@@ -67,9 +67,9 @@ p{
     font-size: 30px;
 }
 
-@media (width<700px) {
+@media (width<1000px) {
     .window {
-        width: 100%;
+        width: 90%;
         height: 60%;
     }
     
