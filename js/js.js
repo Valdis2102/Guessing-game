@@ -16,11 +16,11 @@
     button.onclick = function check(){
         let choice = document.getElementById('choice').value;
         if (choice > rand.value){
-            document.getElementById('effect').innerHTML = 'Less'
+            document.getElementById('effect').innerHTML = 'The number you guessed is Smaller than the random number.'
         } if (choice < rand.value){
-            document.getElementById('effect').innerHTML = 'More'
+            document.getElementById('effect').innerHTML = 'The number you guessed is Greater than the random number.'
         } if (choice == rand.value){
-            document.getElementById('effect').innerHTML = 'You guessed!'
+            document.getElementById('effect').innerHTML = 'You guessed it correct!'
         }
     }
 
